@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_interfaces/srv/Cube_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_interfaces/srv/Cube_Response",
+      "hash_string": "RIHS01_c7aa46a499547e8b613daf6ea87f7b0757d69cdf8b29a5116fc4876f13c0844b"
+    }
+  ]
+}

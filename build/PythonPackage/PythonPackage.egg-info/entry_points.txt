@@ -1,0 +1,10 @@
+[console_scripts]
+PythonNode = PythonPackage.PythonNode:main
+PythonNodeClient = PythonPackage.PythonNodeClient:main
+PythonNodeClient_OOP = PythonPackage.PythonNodeClient_OOP:main
+PythonNodeParameter = PythonPackage.PythonNodeParameter:main
+PythonNodePublisher = PythonPackage.PythonNodePublisher:main
+PythonNodeServer = PythonPackage.PythonNodeServer:main
+PythonNodeSubscriber = PythonPackage.PythonNodeSubscriber:main
+PythonNode_OOP = PythonPackage.PythonNode_OOP:main
+

@@ -1,0 +1,10 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces:msg/String.msg",
+    "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces:msg/Integer.msg",
+    "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces:msg/UnsignedInteger.msg",
+    "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces:srv/Square.srv",
+    "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces:srv/Cube.srv"
+  ]
+}
