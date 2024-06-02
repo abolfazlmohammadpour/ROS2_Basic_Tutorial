@@ -1,0 +1,6 @@
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:3:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+    3 | void CallBack([01;35m[Kauto[m[K);
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:28:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   28 | void CallBack([01;35m[Kauto[m[K TheNode)
+      |               [01;35m[K^~~~[m[K

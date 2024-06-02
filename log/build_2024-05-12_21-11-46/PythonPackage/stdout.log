@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/PythonPackage/PythonPackage.egg-info/PKG-INFO
+writing dependency_links to ../../build/PythonPackage/PythonPackage.egg-info/dependency_links.txt
+writing entry points to ../../build/PythonPackage/PythonPackage.egg-info/entry_points.txt
+writing requirements to ../../build/PythonPackage/PythonPackage.egg-info/requires.txt
+writing top-level names to ../../build/PythonPackage/PythonPackage.egg-info/top_level.txt
+reading manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+writing manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+running build
+running build_py
+copying PythonPackage/PythonNodeServer.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage
+running install
+running install_lib
+copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage/PythonNodeServer.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage
+byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage/PythonNodeServer.py to PythonNodeServer.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/PythonPackage/PythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing PythonNode script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+Installing PythonNodePublisher script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+Installing PythonNodeServer script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+Installing PythonNodeSubscriber script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+Installing PythonNode_OOP script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log'

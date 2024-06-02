@@ -1,0 +1,9 @@
+[0.115s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodePublisher[0m
+[0.203s] [ 33%] Built target CPlusPlusNode_OOP
+[0.205s] [ 66%] Built target CPlusPlusNode
+[0.217s] [ 83%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o[0m
+[1.785s] gmake[2]: *** [CMakeFiles/CPlusPlusNodePublisher.dir/build.make:76: CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o] Interrupt
+[1.786s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CPlusPlusNodePublisher.dir/all] Interrupt
+[1.786s] gmake: *** [Makefile:146: all] Interrupt
+[1.798s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8

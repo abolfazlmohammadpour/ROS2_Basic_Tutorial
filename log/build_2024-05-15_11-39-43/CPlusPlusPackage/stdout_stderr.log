@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient_OOP[0m
+[ 14%] Built target CPlusPlusNode
+[ 28%] Built target CPlusPlusNodeSubscriber
+[ 42%] Built target CPlusPlusNodeServer
+[ 57%] Built target CPlusPlusNodePublisher
+[ 71%] Built target CPlusPlusNode_OOP
+[ 78%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o[0m
+[ 92%] Built target CPlusPlusNodeClient
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:[m[K In constructor ‘[01m[KTheNodeClass::TheNodeClass()[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:50:33:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TheNodeClass::TheClientCycle()[m[K’
+   50 |         TheThread = std::thread([01;31m[KTheClientCycle[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:9:10:[m[K [01;36m[Knote: [m[Kdeclared here
+    9 |     void [01;36m[KTheClientCycle[m[K(void)
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/CPlusPlusNodeClient_OOP.dir/build.make:76: CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/CPlusPlusNodeClient_OOP.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000493] (-) JobUnselected: {'identifier': 'TemperatureCPlusPlusPackage'}
+[0.001292] (-) JobUnselected: {'identifier': 'TemperaturePythonPackage'}
+[0.001465] (CPlusPlusPackage) JobQueued: {'identifier': 'CPlusPlusPackage', 'dependencies': OrderedDict()}
+[0.001522] (CPlusPlusPackage) JobStarted: {'identifier': 'CPlusPlusPackage'}
+[0.069143] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'cmake'}
+[0.069647] (CPlusPlusPackage) Command: {'cmd': ['/usr/bin/cmake', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage', '-DCMAKE_INSTALL_PREFIX=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abolfazlmohammadpour'), ('GIT_ASKPASS', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/abolfazlmohammadpour'), ('OLDPWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-df7e7088-e8a2-4ec4-98e1-9e6da66c5276.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'abolfazlmohammadpour'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/866_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eee58108ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.098598] (-) TimerEvent: {}
+[0.198953] (-) TimerEvent: {}
+[0.287539] (CPlusPlusPackage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299110] (-) TimerEvent: {}
+[0.399528] (-) TimerEvent: {}
+[0.499897] (-) TimerEvent: {}
+[0.600226] (-) TimerEvent: {}
+[0.668135] (CPlusPlusPackage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.700355] (-) TimerEvent: {}
+[0.800730] (-) TimerEvent: {}
+[0.835679] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.900838] (-) TimerEvent: {}
+[0.946425] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.953856] (CPlusPlusPackage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.954858] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.957150] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.962701] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.000977] (-) TimerEvent: {}
+[1.085665] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.094216] (CPlusPlusPackage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.094579] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.094940] (CPlusPlusPackage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.101121] (-) TimerEvent: {}
+[1.104286] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.201265] (-) TimerEvent: {}
+[1.301623] (-) TimerEvent: {}
+[1.302184] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.401770] (-) TimerEvent: {}
+[1.430050] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.501909] (-) TimerEvent: {}
+[1.602401] (-) TimerEvent: {}
+[1.606551] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.628794] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.665054] (CPlusPlusPackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702560] (-) TimerEvent: {}
+[1.705884] (CPlusPlusPackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.802769] (-) TimerEvent: {}
+[1.903435] (-) TimerEvent: {}
+[2.004034] (-) TimerEvent: {}
+[2.104623] (-) TimerEvent: {}
+[2.137847] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.149026] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.204884] (-) TimerEvent: {}
+[2.305555] (-) TimerEvent: {}
+[2.406076] (-) TimerEvent: {}
+[2.506602] (-) TimerEvent: {}
+[2.607185] (-) TimerEvent: {}
+[2.707700] (-) TimerEvent: {}
+[2.808271] (-) TimerEvent: {}
+[2.908821] (-) TimerEvent: {}
+[3.009403] (-) TimerEvent: {}
+[3.110006] (-) TimerEvent: {}
+[3.210539] (-) TimerEvent: {}
+[3.311130] (-) TimerEvent: {}
+[3.411815] (-) TimerEvent: {}
+[3.512401] (-) TimerEvent: {}
+[3.612938] (-) TimerEvent: {}
+[3.713439] (-) TimerEvent: {}
+[3.814041] (-) TimerEvent: {}
+[3.914576] (-) TimerEvent: {}
+[4.015087] (-) TimerEvent: {}
+[4.115576] (-) TimerEvent: {}
+[4.206615] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.215706] (-) TimerEvent: {}
+[4.316138] (-) TimerEvent: {}
+[4.416502] (-) TimerEvent: {}
+[4.516911] (-) TimerEvent: {}
+[4.617323] (-) TimerEvent: {}
+[4.717728] (-) TimerEvent: {}
+[4.818099] (-) TimerEvent: {}
+[4.918491] (-) TimerEvent: {}
+[5.018874] (-) TimerEvent: {}
+[5.038123] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[5.119003] (-) TimerEvent: {}
+[5.219363] (-) TimerEvent: {}
+[5.319772] (-) TimerEvent: {}
+[5.420145] (-) TimerEvent: {}
+[5.520530] (-) TimerEvent: {}
+[5.620903] (-) TimerEvent: {}
+[5.721263] (-) TimerEvent: {}
+[5.821611] (-) TimerEvent: {}
+[5.921960] (-) TimerEvent: {}
+[6.022288] (-) TimerEvent: {}
+[6.122651] (-) TimerEvent: {}
+[6.223109] (-) TimerEvent: {}
+[6.323490] (-) TimerEvent: {}
+[6.423879] (-) TimerEvent: {}
+[6.514429] (CPlusPlusPackage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.524095] (-) TimerEvent: {}
+[6.624566] (-) TimerEvent: {}
+[6.724969] (-) TimerEvent: {}
+[6.782699] (CPlusPlusPackage) StderrLine: {'line': b'WARNING: Package name "CPlusPlusPackage" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[6.799364] (CPlusPlusPackage) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.809906] (CPlusPlusPackage) StdoutLine: {'line': b'-- Generating done\n'}
+[6.811161] (CPlusPlusPackage) StdoutLine: {'line': b'-- Build files have been written to: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage\n'}
+[6.819803] (CPlusPlusPackage) CommandEnded: {'returncode': 0}
+[6.821977] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'build'}
+[6.822586] (CPlusPlusPackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', '--', '-j8', '-l8'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abolfazlmohammadpour'), ('GIT_ASKPASS', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/abolfazlmohammadpour'), ('OLDPWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-df7e7088-e8a2-4ec4-98e1-9e6da66c5276.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'abolfazlmohammadpour'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/866_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eee58108ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[6.825100] (-) TimerEvent: {}
+[6.865587] (CPlusPlusPackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/CPlusPlusNode.dir/src/CPlusPlusNode.cpp.o\x1b[0m\n'}
+[6.925263] (-) TimerEvent: {}
+[7.025689] (-) TimerEvent: {}
+[7.126077] (-) TimerEvent: {}
+[7.226505] (-) TimerEvent: {}
+[7.326882] (-) TimerEvent: {}
+[7.427347] (-) TimerEvent: {}
+[7.527821] (-) TimerEvent: {}
+[7.628445] (-) TimerEvent: {}
+[7.729019] (-) TimerEvent: {}
+[7.829623] (-) TimerEvent: {}
+[7.930288] (-) TimerEvent: {}
+[8.030816] (-) TimerEvent: {}
+[8.131514] (-) TimerEvent: {}
+[8.232075] (-) TimerEvent: {}
+[8.332651] (-) TimerEvent: {}
+[8.433228] (-) TimerEvent: {}
+[8.533801] (-) TimerEvent: {}
+[8.634403] (-) TimerEvent: {}
+[8.734974] (-) TimerEvent: {}
+[8.835563] (-) TimerEvent: {}
+[8.936142] (-) TimerEvent: {}
+[9.036693] (-) TimerEvent: {}
+[9.137376] (-) TimerEvent: {}
+[9.237898] (-) TimerEvent: {}
+[9.338510] (-) TimerEvent: {}
+[9.439105] (-) TimerEvent: {}
+[9.539684] (-) TimerEvent: {}
+[9.640335] (-) TimerEvent: {}
+[9.740958] (-) TimerEvent: {}
+[9.841443] (-) TimerEvent: {}
+[9.941835] (-) TimerEvent: {}
+[10.042256] (-) TimerEvent: {}
+[10.142710] (-) TimerEvent: {}
+[10.243193] (-) TimerEvent: {}
+[10.343677] (-) TimerEvent: {}
+[10.444184] (-) TimerEvent: {}
+[10.544588] (-) TimerEvent: {}
+[10.645078] (-) TimerEvent: {}
+[10.745502] (-) TimerEvent: {}
+[10.845907] (-) TimerEvent: {}
+[10.946306] (-) TimerEvent: {}
+[11.046771] (-) TimerEvent: {}
+[11.147196] (-) TimerEvent: {}
+[11.153496] (CPlusPlusPackage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable CPlusPlusNode\x1b[0m\n'}
+[11.247351] (-) TimerEvent: {}
+[11.347835] (-) TimerEvent: {}
+[11.352879] (CPlusPlusPackage) StdoutLine: {'line': b'[100%] Built target CPlusPlusNode\n'}
+[11.364623] (CPlusPlusPackage) CommandEnded: {'returncode': 0}
+[11.390738] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'install'}
+[11.398837] (CPlusPlusPackage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abolfazlmohammadpour'), ('GIT_ASKPASS', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/abolfazlmohammadpour'), ('OLDPWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-df7e7088-e8a2-4ec4-98e1-9e6da66c5276.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'abolfazlmohammadpour'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/866_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eee58108ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[11.404842] (CPlusPlusPackage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.405369] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNode\n'}
+[11.405929] (CPlusPlusPackage) StdoutLine: {'line': b'-- Set runtime path of "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNode" to ""\n'}
+[11.406431] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/package_run_dependencies/CPlusPlusPackage\n'}
+[11.406717] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/parent_prefix_path/CPlusPlusPackage\n'}
+[11.407064] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/ament_prefix_path.sh\n'}
+[11.407400] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/ament_prefix_path.dsv\n'}
+[11.407727] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/path.sh\n'}
+[11.407958] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/path.dsv\n'}
+[11.408138] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.bash\n'}
+[11.408448] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.sh\n'}
+[11.408735] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.zsh\n'}
+[11.408813] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.dsv\n'}
+[11.408875] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/package.dsv\n'}
+[11.408954] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/packages/CPlusPlusPackage\n'}
+[11.409278] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/cmake/CPlusPlusPackageConfig.cmake\n'}
+[11.409543] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/cmake/CPlusPlusPackageConfig-version.cmake\n'}
+[11.409625] (CPlusPlusPackage) StdoutLine: {'line': b'-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/package.xml\n'}
+[11.411471] (CPlusPlusPackage) CommandEnded: {'returncode': 0}
+[11.448401] (-) TimerEvent: {}
+[11.547152] (CPlusPlusPackage) JobEnded: {'identifier': 'CPlusPlusPackage', 'rc': 0}
+[11.548440] (-) TimerEvent: {}
+[11.548576] (-) EventReactorShutdown: {}

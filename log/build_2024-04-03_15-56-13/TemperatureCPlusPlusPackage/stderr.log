@@ -1,0 +1,15 @@
+[31mCMake Error at CMakeLists.txt:13 (add_executable):
+  add_executable cannot create target "TemperatureCPlusPlusNode" because
+  another target with the same name already exists.  The existing target is
+  an executable created in source directory
+  "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

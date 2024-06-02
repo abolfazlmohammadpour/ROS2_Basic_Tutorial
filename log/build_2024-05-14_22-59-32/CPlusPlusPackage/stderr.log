@@ -1,0 +1,7 @@
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:[m[K In constructor ‘[01m[KTheNodeClass::TheNodeClass()[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:9:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&TheNodeClass::TheClientCycle[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    9 |         std::thread TheThread = std::thread(std::bind(&[01;31m[KTheClientCycle[m[K, this));
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/CPlusPlusNodeClient_OOP.dir/build.make:76: CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/CPlusPlusNodeClient_OOP.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

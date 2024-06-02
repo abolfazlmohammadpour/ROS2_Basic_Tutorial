@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001779] (-) JobUnselected: {'identifier': 'PythonPackage'}
+[0.002567] (CPlusPlusPackage) JobQueued: {'identifier': 'CPlusPlusPackage', 'dependencies': OrderedDict()}
+[0.002692] (CPlusPlusPackage) JobStarted: {'identifier': 'CPlusPlusPackage'}
+[0.099965] (-) TimerEvent: {}
+[0.131426] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'cmake'}
+[0.133199] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'build'}
+[0.136308] (CPlusPlusPackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', '--', '-j8', '-l8'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abolfazlmohammadpour'), ('GIT_ASKPASS', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/abolfazlmohammadpour'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5d37f696-33b9-435e-b478-36ae5f362673.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'abolfazlmohammadpour'), ('NAME', 'ABOLFAZLMOHAMMADPOUR'), ('WSL_INTEROP', '/run/WSL/452_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eee58108ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.208723] (-) TimerEvent: {}
+[0.292016] (CPlusPlusPackage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o\x1b[0m\n'}
+[0.306819] (CPlusPlusPackage) StdoutLine: {'line': b'[ 50%] Built target CPlusPlusNode_OOP\n'}
+[0.308858] (-) TimerEvent: {}
+[0.309860] (CPlusPlusPackage) StdoutLine: {'line': b'[ 83%] Built target CPlusPlusNode\n'}
+[0.409076] (-) TimerEvent: {}
+[0.510037] (-) TimerEvent: {}
+[0.611010] (-) TimerEvent: {}
+[0.711558] (-) TimerEvent: {}
+[0.812198] (-) TimerEvent: {}
+[0.912938] (-) TimerEvent: {}
+[1.013600] (-) TimerEvent: {}
+[1.114239] (-) TimerEvent: {}
+[1.214840] (-) TimerEvent: {}
+[1.315443] (-) TimerEvent: {}
+[1.416005] (-) TimerEvent: {}
+[1.516554] (-) TimerEvent: {}
+[1.617056] (-) TimerEvent: {}
+[1.717725] (-) TimerEvent: {}
+[1.818313] (-) TimerEvent: {}
+[1.918880] (-) TimerEvent: {}
+[2.019409] (-) TimerEvent: {}
+[2.119952] (-) TimerEvent: {}
+[2.220502] (-) TimerEvent: {}
+[2.321026] (-) TimerEvent: {}
+[2.421765] (-) TimerEvent: {}
+[2.522361] (-) TimerEvent: {}
+[2.622912] (-) TimerEvent: {}
+[2.723437] (-) TimerEvent: {}
+[2.824026] (-) TimerEvent: {}
+[2.924617] (-) TimerEvent: {}
+[3.025127] (-) TimerEvent: {}
+[3.125678] (-) TimerEvent: {}
+[3.226371] (-) TimerEvent: {}
+[3.326929] (-) TimerEvent: {}
+[3.427450] (-) TimerEvent: {}
+[3.527938] (-) TimerEvent: {}
+[3.628603] (-) TimerEvent: {}
+[3.729196] (-) TimerEvent: {}
+[3.829789] (-) TimerEvent: {}
+[3.930305] (-) TimerEvent: {}
+[4.030917] (-) TimerEvent: {}
+[4.131563] (-) TimerEvent: {}
+[4.232156] (-) TimerEvent: {}
+[4.332742] (-) TimerEvent: {}
+[4.433267] (-) TimerEvent: {}
+[4.533846] (-) TimerEvent: {}
+[4.634384] (-) TimerEvent: {}
+[4.734931] (-) TimerEvent: {}
+[4.835497] (-) TimerEvent: {}
+[4.936063] (-) TimerEvent: {}
+[4.951500] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.951801] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template argument deduction failed:\n'}
+[4.951910] (CPlusPlusPackage) StderrLine: {'line': b'    9 |     rclcpp::Publisher ThePublisher = TheNode.create_publisher<example_interfaces::msg::String>("PythonTopic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.952009] (CPlusPlusPackage) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.952103] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPublisher(std::shared_ptr<rclcpp::Publisher<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.952596] (CPlusPlusPackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[4.952748] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.952852] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.952947] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.953111] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.953212] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.953306] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.953749] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.953874] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.953974] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.954067] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:1\x1b[m\x1b[K:\n'}
+[4.954159] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:125:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT> Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)-> rclcpp::Publisher<MessageT, AllocatorT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.954255] (CPlusPlusPackage) StderrLine: {'line': b'  125 |   \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K(\n'}
+[4.954345] (CPlusPlusPackage) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.954433] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:125:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.954521] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.954620] (CPlusPlusPackage) StderrLine: {'line': b'    9 |     rclcpp::Publisher ThePublisher = TheNode.create_publisher<example_interfaces::msg::String>("PythonTopic", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.954709] (CPlusPlusPackage) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.954798] (CPlusPlusPackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[4.954894] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.954982] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.955070] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.955159] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.955246] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.955334] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.955421] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.955515] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.955603] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.955696] (CPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:1\x1b[m\x1b[K:\n'}
+[4.955786] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT> Publisher(rclcpp::Publisher<MessageT, AllocatorT>)-> rclcpp::Publisher<MessageT, AllocatorT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.955878] (CPlusPlusPackage) StderrLine: {'line': b'   77 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[4.955967] (CPlusPlusPackage) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.956054] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.956143] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<MessageT, AllocatorT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.956237] (CPlusPlusPackage) StderrLine: {'line': b'    9 |     rclcpp::Publisher ThePublisher = TheNode.create_publisher<example_interfaces::msg::String>("PythonTopic", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.956325] (CPlusPlusPackage) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.036259] (-) TimerEvent: {}
+[5.136798] (-) TimerEvent: {}
+[5.237328] (-) TimerEvent: {}
+[5.337903] (-) TimerEvent: {}
+[5.438459] (-) TimerEvent: {}
+[5.539016] (-) TimerEvent: {}
+[5.639637] (-) TimerEvent: {}
+[5.740268] (-) TimerEvent: {}
+[5.840818] (-) TimerEvent: {}
+[5.941466] (-) TimerEvent: {}
+[6.042010] (-) TimerEvent: {}
+[6.142551] (-) TimerEvent: {}
+[6.243146] (-) TimerEvent: {}
+[6.343773] (-) TimerEvent: {}
+[6.444505] (-) TimerEvent: {}
+[6.545111] (-) TimerEvent: {}
+[6.581489] (CPlusPlusPackage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/CPlusPlusNodePublisher.dir/build.make:76: CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o] Error 1\n'}
+[6.582053] (CPlusPlusPackage) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CPlusPlusNodePublisher.dir/all] Error 2\n'}
+[6.582519] (CPlusPlusPackage) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.585840] (CPlusPlusPackage) CommandEnded: {'returncode': 2}
+[6.645380] (-) TimerEvent: {}
+[6.746964] (-) TimerEvent: {}
+[6.799621] (CPlusPlusPackage) JobEnded: {'identifier': 'CPlusPlusPackage', 'rc': 2}
+[6.811561] (-) EventReactorShutdown: {}

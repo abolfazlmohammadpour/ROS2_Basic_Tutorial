@@ -1,0 +1,43 @@
+[1.299s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/PythonPackage': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/PythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log --single-version-externally-managed
+[1.663s] running egg_info
+[1.664s] creating ../../build/PythonPackage/PythonPackage.egg-info
+[1.664s] writing ../../build/PythonPackage/PythonPackage.egg-info/PKG-INFO
+[1.665s] writing dependency_links to ../../build/PythonPackage/PythonPackage.egg-info/dependency_links.txt
+[1.665s] writing entry points to ../../build/PythonPackage/PythonPackage.egg-info/entry_points.txt
+[1.665s] writing requirements to ../../build/PythonPackage/PythonPackage.egg-info/requires.txt
+[1.665s] writing top-level names to ../../build/PythonPackage/PythonPackage.egg-info/top_level.txt
+[1.665s] writing manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[1.668s] reading manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[1.669s] writing manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[1.669s] running build
+[1.669s] running build_py
+[1.669s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build
+[1.670s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib
+[1.670s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage
+[1.670s] copying PythonPackage/__init__.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage
+[1.671s] copying PythonPackage/PythonNode_OOP.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage
+[1.671s] copying PythonPackage/PythonNode.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage
+[1.671s] running install
+[1.672s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.673s]   warnings.warn(
+[1.673s] running install_lib
+[1.674s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage
+[1.674s] copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage/__init__.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage
+[1.675s] copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage/PythonNode_OOP.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage
+[1.675s] copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage/PythonNode.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage
+[1.675s] byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage/__init__.py to __init__.cpython-310.pyc
+[1.676s] byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage/PythonNode_OOP.py to PythonNode_OOP.cpython-310.pyc
+[1.676s] byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage/PythonNode.py to PythonNode.cpython-310.pyc
+[1.677s] running install_data
+[1.677s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/share/ament_index
+[1.678s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/share/ament_index/resource_index
+[1.678s] creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/share/ament_index/resource_index/packages
+[1.678s] copying resource/PythonPackage -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/share/ament_index/resource_index/packages
+[1.679s] copying package.xml -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/share/PythonPackage
+[1.679s] running install_egg_info
+[1.681s] Copying ../../build/PythonPackage/PythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info
+[1.682s] running install_scripts
+[1.710s] Installing PythonNode script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[1.710s] Installing PythonNode_OOP script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[1.711s] writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log'
+[1.744s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/PythonPackage' returned '0': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/PythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log --single-version-externally-managed

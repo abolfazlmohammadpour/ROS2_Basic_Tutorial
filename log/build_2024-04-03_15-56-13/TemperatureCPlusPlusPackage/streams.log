@@ -1,0 +1,28 @@
+[0.260s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8
+[0.325s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.768s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[2.624s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.657s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.272s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.278s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[18.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.793s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[18.793s]   add_executable cannot create target "TemperatureCPlusPlusNode" because
+[18.793s]   another target with the same name already exists.  The existing target is
+[18.794s]   an executable created in source directory
+[18.794s]   "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage".
+[18.795s]   See documentation for policy CMP0002 for more details.
+[18.795s] 
+[18.796s] [0m
+[18.796s] -- Configuring incomplete, errors occurred!
+[18.796s] See also "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage/CMakeFiles/CMakeOutput.log".
+[18.796s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[18.797s]   ament_target_dependencies() the first argument must be a valid target name
+[18.797s] Call Stack (most recent call first):
+[18.797s]   CMakeLists.txt:16 (ament_target_dependencies)
+[18.797s] 
+[18.797s] [0m
+[18.811s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[18.817s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8

@@ -1,0 +1,74 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+WARNING: Package name "CPlusPlusPackage" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNode[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNode_OOP[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodePublisher[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeSubscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeServer[0m
+[  8%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient.dir/src/CPlusPlusNodeClient.cpp.o[0m
+[ 41%] Built target CPlusPlusNode_OOP
+[ 41%] Built target CPlusPlusNode
+[ 58%] Built target CPlusPlusNodeServer
+[ 75%] Built target CPlusPlusNodeSubscriber
+[ 91%] Built target CPlusPlusNodePublisher
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient.cpp:1[m[K:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient.cpp:23:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   23 |         RCLCPP_INFO(TheNode->get_logger(), [01;35m[K"%d"[m[K, [32m[KTheFuture.get()->sum[m[K);
+      |                                            [01;35m[K^~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                   [32m[K|[m[K
+      |                                                                   [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient.cpp:23:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   23 |         RCLCPP_INFO(TheNode->get_logger(), "[01;36m[K%d[m[K", TheFuture.get()->sum);
+      |                                             [01;36m[K~^[m[K
+      |                                              [01;36m[K|[m[K
+      |                                              [01;36m[Kint[m[K
+      |                                             [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable CPlusPlusNodeClient[0m
+[100%] Built target CPlusPlusNodeClient
+-- Install configuration: ""
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNode
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNode_OOP
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodePublisher
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeSubscriber
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeServer
+-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeClient
+-- Set runtime path of "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeClient" to ""
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/package_run_dependencies/CPlusPlusPackage
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/parent_prefix_path/CPlusPlusPackage
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/ament_prefix_path.sh
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/path.sh
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/path.dsv
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.bash
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.sh
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.zsh
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.dsv
+-- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/package.dsv
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/packages/CPlusPlusPackage
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/cmake/CPlusPlusPackageConfig.cmake
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/cmake/CPlusPlusPackageConfig-version.cmake
+-- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/package.xml

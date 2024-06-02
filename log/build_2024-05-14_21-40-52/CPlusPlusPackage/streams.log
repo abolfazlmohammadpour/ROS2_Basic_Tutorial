@@ -1,0 +1,36 @@
+[0.148s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient[0m
+[0.237s] [ 33%] Built target CPlusPlusNode
+[0.237s] [ 33%] Built target CPlusPlusNodeServer
+[0.239s] [ 50%] Built target CPlusPlusNodeSubscriber
+[0.241s] [ 66%] Built target CPlusPlusNode_OOP
+[0.249s] [ 83%] Built target CPlusPlusNodePublisher
+[0.250s] [ 91%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient.dir/src/CPlusPlusNodeClient.cpp.o[0m
+[7.925s] [100%] [32m[1mLinking CXX executable CPlusPlusNodeClient[0m
+[8.252s] [100%] Built target CPlusPlusNodeClient
+[8.274s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8
+[8.361s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage
+[8.373s] -- Install configuration: ""
+[8.374s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNode
+[8.374s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNode_OOP
+[8.375s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodePublisher
+[8.376s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeSubscriber
+[8.377s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeServer
+[8.378s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeClient
+[8.382s] -- Set runtime path of "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/lib/CPlusPlusPackage/CPlusPlusNodeClient" to ""
+[8.383s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/package_run_dependencies/CPlusPlusPackage
+[8.383s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/parent_prefix_path/CPlusPlusPackage
+[8.384s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/ament_prefix_path.sh
+[8.384s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/ament_prefix_path.dsv
+[8.385s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/path.sh
+[8.385s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/environment/path.dsv
+[8.386s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.bash
+[8.386s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.sh
+[8.386s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.zsh
+[8.386s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/local_setup.dsv
+[8.386s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/package.dsv
+[8.386s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/ament_index/resource_index/packages/CPlusPlusPackage
+[8.386s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/cmake/CPlusPlusPackageConfig.cmake
+[8.388s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/cmake/CPlusPlusPackageConfig-version.cmake
+[8.389s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage/share/CPlusPlusPackage/package.xml
+[8.391s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage

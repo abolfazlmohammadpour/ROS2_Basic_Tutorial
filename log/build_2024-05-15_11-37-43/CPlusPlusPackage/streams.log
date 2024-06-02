@@ -1,0 +1,25 @@
+[0.526s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8
+[0.725s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient[0m
+[0.736s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient_OOP[0m
+[0.747s] [ 14%] Built target CPlusPlusNode
+[0.748s] [ 28%] Built target CPlusPlusNode_OOP
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeServer[0m
+[0.751s] [ 42%] Built target CPlusPlusNodeSubscriber
+[0.773s] [ 57%] Built target CPlusPlusNodePublisher
+[0.783s] [ 64%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient.dir/src/CPlusPlusNodeClient.cpp.o[0m
+[0.799s] [ 71%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o[0m
+[0.807s] [ 85%] Built target CPlusPlusNodeServer
+[7.711s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:[m[K In constructor ‘[01m[KTheNodeClass::TheNodeClass()[m[K’:
+[7.711s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:15:33:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TheNodeClass::TheClientCycle()[m[K’
+[7.711s]    15 |         TheThread = std::thread([01;31m[KTheClientCycle[m[K);
+[7.712s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.712s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:19:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.712s]    19 |     void [01;36m[KTheClientCycle[m[K(void)
+[7.712s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.419s] gmake[2]: *** [CMakeFiles/CPlusPlusNodeClient_OOP.dir/build.make:76: CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o] Error 1
+[10.420s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/CPlusPlusNodeClient_OOP.dir/all] Error 2
+[10.420s] gmake[1]: *** Waiting for unfinished jobs....
+[11.723s] [ 92%] [32m[1mLinking CXX executable CPlusPlusNodeClient[0m
+[12.442s] [ 92%] Built target CPlusPlusNodeClient
+[12.444s] gmake: *** [Makefile:146: all] Error 2
+[12.448s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8

@@ -1,0 +1,37 @@
+[0.138s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_interfaces -- -j8 -l8
+[0.189s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.493s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.796s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.489s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.344s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.396s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.396s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.678s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:243 (add_custom_target):
+[2.678s]   add_custom_target cannot create target "custom_interfaces" because another
+[2.679s]   target with the same name already exists.  The existing target is a custom
+[2.679s]   target created in source directory
+[2.679s]   "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces".
+[2.679s]   See documentation for policy CMP0002 for more details.
+[2.679s] Call Stack (most recent call first):
+[2.680s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.680s] 
+[2.680s] [0m
+[2.898s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:243 (add_custom_target):
+[2.898s]   add_custom_target cannot create target "custom_interfaces" because another
+[2.899s]   target with the same name already exists.  The existing target is a custom
+[2.899s]   target created in source directory
+[2.899s]   "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces".
+[2.899s]   See documentation for policy CMP0002 for more details.
+[2.899s] Call Stack (most recent call first):
+[2.899s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.899s] 
+[2.899s] [0m
+[2.906s] -- Configuring incomplete, errors occurred!
+[2.906s] See also "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[2.916s] gmake: *** [Makefile:815: cmake_check_build_system] Error 1
+[2.920s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_interfaces -- -j8 -l8

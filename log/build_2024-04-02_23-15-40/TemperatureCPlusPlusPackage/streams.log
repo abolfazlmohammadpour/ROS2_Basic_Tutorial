@@ -1,0 +1,32 @@
+[0.239s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8
+[0.338s] [35m[1mConsolidate compiler generated dependencies of target TemperatureCPlusPlusNode[0m
+[0.387s] [ 50%] [32mBuilding CXX object CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o[0m
+[8.536s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:3:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[8.537s]     3 | void CallBack([01;35m[Kauto[m[K);
+[8.537s]       |               [01;35m[K^~~~[m[K
+[8.540s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:28:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[8.541s]    28 | void CallBack([01;35m[Kauto[m[K TheNode)
+[8.541s]       |               [01;35m[K^~~~[m[K
+[10.605s] [100%] [32m[1mLinking CXX executable TemperatureCPlusPlusNode[0m
+[11.114s] [100%] Built target TemperatureCPlusPlusNode
+[11.141s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8
+[11.236s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage
+[11.254s] -- Install configuration: ""
+[11.255s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib/TemperatureCPlusPlusPackage/TemperatureCPlusPlusNode
+[11.260s] -- Set runtime path of "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib/TemperatureCPlusPlusPackage/TemperatureCPlusPlusNode" to ""
+[11.261s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/ament_index/resource_index/package_run_dependencies/TemperatureCPlusPlusPackage
+[11.261s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/ament_index/resource_index/parent_prefix_path/TemperatureCPlusPlusPackage
+[11.262s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/environment/ament_prefix_path.sh
+[11.262s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/environment/ament_prefix_path.dsv
+[11.263s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/environment/path.sh
+[11.263s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/environment/path.dsv
+[11.264s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/local_setup.bash
+[11.264s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/local_setup.sh
+[11.265s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/local_setup.zsh
+[11.265s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/local_setup.dsv
+[11.266s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.dsv
+[11.266s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/ament_index/resource_index/packages/TemperatureCPlusPlusPackage
+[11.268s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/cmake/TemperatureCPlusPlusPackageConfig.cmake
+[11.269s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/cmake/TemperatureCPlusPlusPackageConfig-version.cmake
+[11.269s] -- Up-to-date: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.xml
+[11.275s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage

@@ -1,0 +1,193 @@
+[4.507s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.507s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4e24067340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4e24066b90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4e24066b90>>)
+[4.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.653s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace'
+[4.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extensions ['ignore', 'ignore_ament_install']
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extension 'ignore'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extension 'ignore_ament_install'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extensions ['colcon_pkg']
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extension 'colcon_pkg'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extensions ['colcon_meta']
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extension 'colcon_meta'
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extensions ['ros']
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperatureCPlusPlusPackage) by extension 'ros'
+[4.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TemperatureCPlusPlusPackage' with type 'ros.ament_cmake' and name 'TemperatureCPlusPlusPackage'
+[4.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extensions ['ignore', 'ignore_ament_install']
+[4.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extension 'ignore'
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extension 'ignore_ament_install'
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extensions ['colcon_pkg']
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extension 'colcon_pkg'
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extensions ['colcon_meta']
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extension 'colcon_meta'
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extensions ['ros']
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/TemperaturePythonPackage) by extension 'ros'
+[4.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TemperaturePythonPackage' with type 'ros.ament_python' and name 'TemperaturePythonPackage'
+[4.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.095s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install
+[5.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[5.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.437s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'cmake_args' from command line to 'None'
+[5.437s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'cmake_target' from command line to 'None'
+[5.437s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.437s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'cmake_clean_cache' from command line to 'False'
+[5.438s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'cmake_clean_first' from command line to 'False'
+[5.438s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'cmake_force_configure' from command line to 'False'
+[5.438s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'ament_cmake_args' from command line to 'None'
+[5.438s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'catkin_cmake_args' from command line to 'None'
+[5.438s] Level 5:colcon.colcon_core.verb:set package 'TemperatureCPlusPlusPackage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.438s] DEBUG:colcon.colcon_core.verb:Building package 'TemperatureCPlusPlusPackage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage', 'merge_install': False, 'path': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage', 'symlink_install': False, 'test_result_base': None}
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'cmake_args' from command line to 'None'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'cmake_target' from command line to 'None'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'cmake_clean_cache' from command line to 'False'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'cmake_clean_first' from command line to 'False'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'cmake_force_configure' from command line to 'False'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'ament_cmake_args' from command line to 'None'
+[5.487s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'catkin_cmake_args' from command line to 'None'
+[5.488s] Level 5:colcon.colcon_core.verb:set package 'TemperaturePythonPackage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.488s] DEBUG:colcon.colcon_core.verb:Building package 'TemperaturePythonPackage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage', 'merge_install': False, 'path': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage', 'symlink_install': False, 'test_result_base': None}
+[5.533s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage' with build type 'ament_cmake'
+[5.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage'
+[5.648s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.804s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage' with build type 'ament_python'
+[5.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('TemperaturePythonPackage', 'ament_prefix_path')
+[5.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/hook/ament_prefix_path.ps1'
+[5.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/hook/ament_prefix_path.dsv'
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/hook/ament_prefix_path.sh'
+[5.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8
+[6.974s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage'
+[7.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/TemperaturePythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log --single-version-externally-managed
+[9.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage' returned '0': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/TemperaturePythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log --single-version-externally-managed
+[9.594s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage' for CMake module files
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage' for CMake config files
+[9.598s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib'
+[9.599s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/bin'
+[9.599s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/pkgconfig/TemperaturePythonPackage.pc'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages'
+[9.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('TemperaturePythonPackage', 'pythonpath')
+[9.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/hook/pythonpath.ps1'
+[9.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/hook/pythonpath.dsv'
+[9.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/hook/pythonpath.sh'
+[9.667s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/bin'
+[9.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(TemperaturePythonPackage)
+[9.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/package.ps1'
+[9.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/package.dsv'
+[9.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/package.sh'
+[9.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/package.bash'
+[9.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage/package.zsh'
+[9.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/colcon-core/packages/TemperaturePythonPackage)
+[19.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8
+[19.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage
+[19.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(TemperatureCPlusPlusPackage)
+[19.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage
+[19.943s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage' for CMake module files
+[19.944s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage' for CMake config files
+[19.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('TemperatureCPlusPlusPackage', 'cmake_prefix_path')
+[19.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/hook/cmake_prefix_path.ps1'
+[19.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/hook/cmake_prefix_path.dsv'
+[20.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/hook/cmake_prefix_path.sh'
+[20.002s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib'
+[20.002s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/bin'
+[20.002s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib/pkgconfig/TemperatureCPlusPlusPackage.pc'
+[20.003s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib/python3.10/site-packages'
+[20.003s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/bin'
+[20.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.ps1'
+[20.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.dsv'
+[20.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.sh'
+[20.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.bash'
+[20.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.zsh'
+[20.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/colcon-core/packages/TemperatureCPlusPlusPackage)
+[20.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(TemperatureCPlusPlusPackage)
+[20.262s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage' for CMake module files
+[20.265s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage' for CMake config files
+[20.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('TemperatureCPlusPlusPackage', 'cmake_prefix_path')
+[20.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/hook/cmake_prefix_path.ps1'
+[20.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/hook/cmake_prefix_path.dsv'
+[20.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/hook/cmake_prefix_path.sh'
+[20.324s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib'
+[20.324s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/bin'
+[20.324s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib/pkgconfig/TemperatureCPlusPlusPackage.pc'
+[20.325s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/lib/python3.10/site-packages'
+[20.326s] Level 1:colcon.colcon_core.environment:checking '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/bin'
+[20.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.ps1'
+[20.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.dsv'
+[20.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.sh'
+[20.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.bash'
+[20.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/TemperatureCPlusPlusPackage/package.zsh'
+[20.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage/share/colcon-core/packages/TemperatureCPlusPlusPackage)
+[20.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.390s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.577s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.579s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.579s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[20.579s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/local_setup.ps1'
+[20.662s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/_local_setup_util_ps1.py'
+[20.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/setup.ps1'
+[20.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/local_setup.sh'
+[20.735s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/_local_setup_util_sh.py'
+[20.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/setup.sh'
+[20.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/local_setup.bash'
+[20.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/setup.bash'
+[20.861s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/local_setup.zsh'
+[20.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/setup.zsh'

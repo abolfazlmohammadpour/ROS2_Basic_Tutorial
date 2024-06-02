@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31mCMake Error at CMakeLists.txt:13 (add_executable):
+  add_executable cannot create target "TemperatureCPlusPlusNode" because
+  another target with the same name already exists.  The existing target is
+  an executable created in source directory
+  "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,39 @@
+[0.085s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8
+[0.104s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.239s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.380s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.573s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[5.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.469s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[5.712s] WARNING: Package name "CPlusPlusPackage" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[5.722s] -- Configuring done
+[5.756s] -- Generating done
+[5.758s] -- Build files have been written to: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage
+[5.783s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeSubscriber[0m
+[5.784s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNode[0m
+[5.785s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodePublisher[0m
+[5.785s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNode_OOP[0m
+[5.786s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient[0m
+[5.789s] [35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeServer[0m
+[5.800s] [  7%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o[0m
+[5.812s] [ 21%] Built target CPlusPlusNodeSubscriber
+[5.814s] [ 35%] Built target CPlusPlusNode
+[5.814s] [ 64%] Built target CPlusPlusNodePublisher
+[5.815s] [ 64%] Built target CPlusPlusNodeClient
+[5.816s] [ 78%] Built target CPlusPlusNodeServer
+[5.816s] [ 92%] Built target CPlusPlusNode_OOP
+[9.476s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:[m[K In constructor ‘[01m[KTheNodeClass::TheNodeClass()[m[K’:
+[9.476s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:9:45:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TheNodeClass::TheClientCycle()[m[K’
+[9.476s]     9 |         std::thread TheThread = std::thread([01;31m[KTheClientCycle[m[K);
+[9.476s]       |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.477s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:12:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.477s]    12 |     void [01;36m[KTheClientCycle[m[K(void)
+[9.477s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[11.198s] gmake[2]: *** [CMakeFiles/CPlusPlusNodeClient_OOP.dir/build.make:76: CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o] Error 1
+[11.199s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/CPlusPlusNodeClient_OOP.dir/all] Error 2
+[11.199s] gmake: *** [Makefile:146: all] Error 2
+[11.201s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage -- -j8 -l8

@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o[0m
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:3:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+    3 | void CallBack([01;35m[Kauto[m[K);
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:11:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shard[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+   11 |     rclcpp::Node::SharedPtr TheNode = std::[01;31m[Kmake_shard[m[K<rclcpp::Node>("TemperatureCPlusPlusNode");
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                            [32m[Kmake_shared[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:11:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   11 |     rclcpp::Node::SharedPtr TheNode = std::make_shard<rclcpp::Node[01;31m[K>[m[K("TemperatureCPlusPlusNode");
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:[m[K At global scope:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:28:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   28 | void CallBack([01;35m[Kauto[m[K TheNode)
+      |               [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/TemperatureCPlusPlusNode.dir/build.make:76: CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/TemperatureCPlusPlusNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

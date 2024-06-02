@@ -1,0 +1,30 @@
+[1.622s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/PythonPackage': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/PythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log --single-version-externally-managed
+[2.099s] running egg_info
+[2.100s] writing ../../build/PythonPackage/PythonPackage.egg-info/PKG-INFO
+[2.101s] writing dependency_links to ../../build/PythonPackage/PythonPackage.egg-info/dependency_links.txt
+[2.101s] writing entry points to ../../build/PythonPackage/PythonPackage.egg-info/entry_points.txt
+[2.101s] writing requirements to ../../build/PythonPackage/PythonPackage.egg-info/requires.txt
+[2.102s] writing top-level names to ../../build/PythonPackage/PythonPackage.egg-info/top_level.txt
+[2.105s] reading manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[2.109s] writing manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[2.109s] running build
+[2.110s] running build_py
+[2.110s] copying PythonPackage/PythonNodeServer.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage
+[2.111s] running install
+[2.113s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.113s]   warnings.warn(
+[2.113s] running install_lib
+[2.115s] copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build/lib/PythonPackage/PythonNodeServer.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage
+[2.116s] byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage/PythonNodeServer.py to PythonNodeServer.cpython-310.pyc
+[2.117s] running install_data
+[2.117s] running install_egg_info
+[2.120s] removing '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info' (and everything under it)
+[2.121s] Copying ../../build/PythonPackage/PythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info
+[2.125s] running install_scripts
+[2.166s] Installing PythonNode script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.167s] Installing PythonNodePublisher script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.167s] Installing PythonNodeServer script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.168s] Installing PythonNodeSubscriber script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.168s] Installing PythonNode_OOP script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.168s] writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log'
+[2.210s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/PythonPackage' returned '0': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/PythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log --single-version-externally-managed

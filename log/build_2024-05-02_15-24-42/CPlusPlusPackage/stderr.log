@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/CPlusPlusNodePublisher.dir/build.make:76: CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CPlusPlusNodePublisher.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

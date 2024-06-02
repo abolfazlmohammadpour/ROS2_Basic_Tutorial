@@ -1,0 +1,30 @@
+[2.104s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/PythonPackage': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/PythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log --single-version-externally-managed
+[2.524s] running egg_info
+[2.525s] writing ../../build/PythonPackage/PythonPackage.egg-info/PKG-INFO
+[2.525s] writing dependency_links to ../../build/PythonPackage/PythonPackage.egg-info/dependency_links.txt
+[2.525s] writing entry points to ../../build/PythonPackage/PythonPackage.egg-info/entry_points.txt
+[2.526s] writing requirements to ../../build/PythonPackage/PythonPackage.egg-info/requires.txt
+[2.526s] writing top-level names to ../../build/PythonPackage/PythonPackage.egg-info/top_level.txt
+[2.531s] reading manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[2.533s] writing manifest file '../../build/PythonPackage/PythonPackage.egg-info/SOURCES.txt'
+[2.534s] running build
+[2.534s] running build_py
+[2.535s] running install
+[2.537s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.537s]   warnings.warn(
+[2.537s] running install_lib
+[2.539s] running install_data
+[2.540s] copying package.xml -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/share/PythonPackage
+[2.540s] running install_egg_info
+[2.543s] removing '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info' (and everything under it)
+[2.543s] Copying ../../build/PythonPackage/PythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages/PythonPackage-0.0.0-py3.10.egg-info
+[2.546s] running install_scripts
+[2.589s] Installing PythonNode script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.589s] Installing PythonNodeClient script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.590s] Installing PythonNodeClient_OOP script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.590s] Installing PythonNodePublisher script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.591s] Installing PythonNodeServer script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.591s] Installing PythonNodeSubscriber script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.591s] Installing PythonNode_OOP script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/PythonPackage
+[2.592s] writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log'
+[2.636s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/PythonPackage' returned '0': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/PythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/PythonPackage/install.log --single-version-externally-managed

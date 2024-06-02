@@ -1,0 +1,62 @@
+[0.174s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CustomInterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CustomInterfaces -DCMAKE_INSTALL_PREFIX=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CustomInterfaces
+[0.584s] -- The C compiler identification is GNU 11.4.0
+[1.259s] -- The CXX compiler identification is GNU 11.4.0
+[2.224s] -- Detecting C compiler ABI info
+[2.724s] -- Detecting C compiler ABI info - done
+[2.762s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.765s] -- Detecting C compile features
+[2.769s] -- Detecting C compile features - done
+[2.787s] -- Detecting CXX compiler ABI info
+[3.319s] -- Detecting CXX compiler ABI info - done
+[3.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.354s] -- Detecting CXX compile features
+[3.358s] -- Detecting CXX compile features - done
+[3.404s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[4.047s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.436s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[4.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.236s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[7.738s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[7.739s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[7.739s]   CustomInterfaces --arguments-file
+[7.740s]   /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CustomInterfaces/rosidl_adapter__arguments__CustomInterfaces.json
+[7.740s]   --output-dir
+[7.740s]   /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CustomInterfaces/rosidl_adapter/CustomInterfaces
+[7.740s]   --output-file
+[7.741s]   /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CustomInterfaces/rosidl_adapter/CustomInterfaces.idls)
+[7.741s]   returned error code 1:
+[7.741s] 
+[7.741s]   Traceback (most recent call last):
+[7.742s] 
+[7.742s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[7.742s]       return _run_code(code, main_globals, None,
+[7.742s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[7.743s]       exec(code, run_globals)
+[7.743s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[7.743s]       sys.exit(main())
+[7.743s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[7.744s]       abs_idl_file = convert_to_idl(
+[7.744s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[7.744s]       return convert_msg_to_idl(
+[7.744s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[7.744s]       msg = parse_message_string(package_name, input_file.stem, content)
+[7.745s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[7.745s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[7.745s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[7.745s]       self.base_type = BaseType(
+[7.746s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 202, in __init__
+[7.746s]       raise InvalidResourceName(
+[7.746s] 
+[7.746s]   rosidl_adapter.parser.InvalidResourceName: 'CustomInterfaces' is an invalid
+[7.746s]   package name.  It should have the pattern
+[7.747s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[7.747s] 
+[7.747s] Call Stack (most recent call first):
+[7.748s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[7.748s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[7.748s] 
+[7.748s] [0m
+[7.749s] -- Configuring incomplete, errors occurred!
+[7.749s] See also "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CustomInterfaces/CMakeFiles/CMakeOutput.log".
+[7.755s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CustomInterfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CustomInterfaces -DCMAKE_INSTALL_PREFIX=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CustomInterfaces

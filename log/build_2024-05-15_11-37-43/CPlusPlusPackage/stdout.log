@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient_OOP[0m
+[ 14%] Built target CPlusPlusNode
+[ 28%] Built target CPlusPlusNode_OOP
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeServer[0m
+[ 42%] Built target CPlusPlusNodeSubscriber
+[ 57%] Built target CPlusPlusNodePublisher
+[ 64%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient.dir/src/CPlusPlusNodeClient.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o[0m
+[ 85%] Built target CPlusPlusNodeServer
+[ 92%] [32m[1mLinking CXX executable CPlusPlusNodeClient[0m
+[ 92%] Built target CPlusPlusNodeClient

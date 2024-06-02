@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000525] (-) JobUnselected: {'identifier': 'TemperaturePythonPackage'}
+[0.000744] (TemperatureCPlusPlusPackage) JobQueued: {'identifier': 'TemperatureCPlusPlusPackage', 'dependencies': OrderedDict()}
+[0.000960] (TemperatureCPlusPlusPackage) JobStarted: {'identifier': 'TemperatureCPlusPlusPackage'}
+[0.096254] (-) TimerEvent: {}
+[0.197118] (-) TimerEvent: {}
+[0.224587] (TemperatureCPlusPlusPackage) JobProgress: {'identifier': 'TemperatureCPlusPlusPackage', 'progress': 'cmake'}
+[0.229542] (TemperatureCPlusPlusPackage) JobProgress: {'identifier': 'TemperatureCPlusPlusPackage', 'progress': 'build'}
+[0.230072] (TemperatureCPlusPlusPackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage', '--', '-j8', '-l8'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abolfazlmohammadpour'), ('GIT_ASKPASS', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/abolfazlmohammadpour'), ('OLDPWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c01ed95c-88b8-4157-bed7-b52008d6ee4e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'abolfazlmohammadpour'), ('NAME', 'ABOLFAZLMOHAMMADPOUR'), ('WSL_INTEROP', '/run/WSL/236983_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/abolfazlmohammadpour/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/mnt/c/PyCharm(A Powerful Integrated Development Environment For Programming Python Program)/Community Edition/PyCharm Community Edition 2023.3/bin:/mnt/c/PyCharm(An Integrated Development Environment For Programming Python)/PyCharm 2023.3.2/bin:/mnt/c/CLion(An Integrated Development Environment For Programming C And CPlusPlus)/CLion 2023.3.1/bin:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Programs/oh-my-posh/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c7faeedb07.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperatureCPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.297504] (-) TimerEvent: {}
+[0.339133] (TemperatureCPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target TemperatureCPlusPlusNode\x1b[0m\n'}
+[0.389119] (TemperatureCPlusPlusPackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o\x1b[0m\n'}
+[0.397743] (-) TimerEvent: {}
+[0.498413] (-) TimerEvent: {}
+[0.599190] (-) TimerEvent: {}
+[0.699971] (-) TimerEvent: {}
+[0.800698] (-) TimerEvent: {}
+[0.901499] (-) TimerEvent: {}
+[1.002335] (-) TimerEvent: {}
+[1.103207] (-) TimerEvent: {}
+[1.204092] (-) TimerEvent: {}
+[1.305062] (-) TimerEvent: {}
+[1.405915] (-) TimerEvent: {}
+[1.506832] (-) TimerEvent: {}
+[1.607600] (-) TimerEvent: {}
+[1.708376] (-) TimerEvent: {}
+[1.809115] (-) TimerEvent: {}
+[1.909871] (-) TimerEvent: {}
+[2.010663] (-) TimerEvent: {}
+[2.111434] (-) TimerEvent: {}
+[2.212211] (-) TimerEvent: {}
+[2.312945] (-) TimerEvent: {}
+[2.413770] (-) TimerEvent: {}
+[2.514446] (-) TimerEvent: {}
+[2.615194] (-) TimerEvent: {}
+[2.716007] (-) TimerEvent: {}
+[2.816720] (-) TimerEvent: {}
+[2.917449] (-) TimerEvent: {}
+[3.018185] (-) TimerEvent: {}
+[3.119001] (-) TimerEvent: {}
+[3.219704] (-) TimerEvent: {}
+[3.320455] (-) TimerEvent: {}
+[3.421193] (-) TimerEvent: {}
+[3.521932] (-) TimerEvent: {}
+[3.622730] (-) TimerEvent: {}
+[3.723645] (-) TimerEvent: {}
+[3.824399] (-) TimerEvent: {}
+[3.925130] (-) TimerEvent: {}
+[4.025994] (-) TimerEvent: {}
+[4.126727] (-) TimerEvent: {}
+[4.227458] (-) TimerEvent: {}
+[4.328185] (-) TimerEvent: {}
+[4.428920] (-) TimerEvent: {}
+[4.529774] (-) TimerEvent: {}
+[4.630538] (-) TimerEvent: {}
+[4.731332] (-) TimerEvent: {}
+[4.832055] (-) TimerEvent: {}
+[4.932792] (-) TimerEvent: {}
+[5.033666] (-) TimerEvent: {}
+[5.134477] (-) TimerEvent: {}
+[5.235206] (-) TimerEvent: {}
+[5.335979] (-) TimerEvent: {}
+[5.436651] (-) TimerEvent: {}
+[5.537316] (-) TimerEvent: {}
+[5.638084] (-) TimerEvent: {}
+[5.738769] (-) TimerEvent: {}
+[5.839436] (-) TimerEvent: {}
+[5.940245] (-) TimerEvent: {}
+[6.041140] (-) TimerEvent: {}
+[6.141936] (-) TimerEvent: {}
+[6.242684] (-) TimerEvent: {}
+[6.343397] (-) TimerEvent: {}
+[6.444150] (-) TimerEvent: {}
+[6.544920] (-) TimerEvent: {}
+[6.645756] (-) TimerEvent: {}
+[6.746668] (-) TimerEvent: {}
+[6.847494] (-) TimerEvent: {}
+[6.948310] (-) TimerEvent: {}
+[7.049121] (-) TimerEvent: {}
+[7.149939] (-) TimerEvent: {}
+[7.250656] (-) TimerEvent: {}
+[7.351413] (-) TimerEvent: {}
+[7.452149] (-) TimerEvent: {}
+[7.552878] (-) TimerEvent: {}
+[7.653637] (-) TimerEvent: {}
+[7.754486] (-) TimerEvent: {}
+[7.855231] (-) TimerEvent: {}
+[7.955983] (-) TimerEvent: {}
+[8.056826] (-) TimerEvent: {}
+[8.157636] (-) TimerEvent: {}
+[8.258398] (-) TimerEvent: {}
+[8.306151] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:3:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.306600] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'    3 | void CallBack(\x1b[01;35m\x1b[Kauto\x1b[m\x1b[K);\n'}
+[8.306808] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.311043] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.311361] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_timer(std::chrono::seconds, <unresolved overloaded function type>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.311570] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'   23 |     TheTimerBase = \x1b[01;31m\x1b[KTheNode->create_timer(std::chrono::seconds(1), &CallBack)\x1b[m\x1b[K;\n'}
+[8.311759] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.312247] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.312733] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.313189] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[8.313850] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:1\x1b[m\x1b[K:\n'}
+[8.314063] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::GenericTimer<CallbackT>::SharedPtr rclcpp::Node::create_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.314260] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_timer\x1b[m\x1b[K(\n'}
+[8.314460] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.314635] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.314808] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KCallbackT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.314984] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'   23 |     TheTimerBase = \x1b[01;36m\x1b[KTheNode->create_timer(std::chrono::seconds(1), &CallBack)\x1b[m\x1b[K;\n'}
+[8.315156] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.315323] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.315490] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:30:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.315666] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'   30 | void CallBack(\x1b[01;35m\x1b[Kauto\x1b[m\x1b[K TheNode)\n'}
+[8.315834] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.358684] (-) TimerEvent: {}
+[8.459425] (-) TimerEvent: {}
+[8.560298] (-) TimerEvent: {}
+[8.661075] (-) TimerEvent: {}
+[8.761842] (-) TimerEvent: {}
+[8.862577] (-) TimerEvent: {}
+[8.963386] (-) TimerEvent: {}
+[9.064151] (-) TimerEvent: {}
+[9.164900] (-) TimerEvent: {}
+[9.265627] (-) TimerEvent: {}
+[9.366350] (-) TimerEvent: {}
+[9.467072] (-) TimerEvent: {}
+[9.567806] (-) TimerEvent: {}
+[9.668565] (-) TimerEvent: {}
+[9.769300] (-) TimerEvent: {}
+[9.870156] (-) TimerEvent: {}
+[9.970875] (-) TimerEvent: {}
+[10.027680] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/TemperatureCPlusPlusNode.dir/build.make:76: CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o] Error 1\n'}
+[10.028616] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/TemperatureCPlusPlusNode.dir/all] Error 2\n'}
+[10.029287] (TemperatureCPlusPlusPackage) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.034699] (TemperatureCPlusPlusPackage) CommandEnded: {'returncode': 2}
+[10.071116] (-) TimerEvent: {}
+[10.177724] (-) TimerEvent: {}
+[10.280227] (-) TimerEvent: {}
+[10.328368] (TemperatureCPlusPlusPackage) JobEnded: {'identifier': 'TemperatureCPlusPlusPackage', 'rc': 2}
+[10.340764] (-) EventReactorShutdown: {}

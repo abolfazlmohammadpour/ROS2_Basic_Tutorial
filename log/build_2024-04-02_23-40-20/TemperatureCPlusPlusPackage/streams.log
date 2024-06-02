@@ -1,0 +1,46 @@
+[0.285s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target TemperatureCPlusPlusNode[0m
+[0.466s] [ 50%] [32mBuilding CXX object CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o[0m
+[10.099s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:3:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[10.099s]     3 | void CallBack([01;35m[Kauto[m[K);
+[10.099s]       |               [01;35m[K^~~~[m[K
+[10.105s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[10.107s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbind(<unresolved overloaded function type>, rclcpp::Node::SharedPtr*)[m[K’
+[10.108s]    23 |     TheTimerBase = TheNode->create_wall_timer(std::chrono::seconds(1), [01;31m[Kstd::bind(&CallBack, &TheNode)[m[K);
+[10.108s]       |                                                                        [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.109s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[10.109s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[10.109s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[10.109s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.110s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.110s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[10.110s]                  from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:1[m[K:
+[10.110s] [01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+[10.110s]   789 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+[10.111s]       |     [01;36m[K^~~~[m[K
+[10.111s] [01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.111s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:81:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Func[m[K’
+[10.111s]    23 |     TheTimerBase = TheNode->create_wall_timer(std::chrono::seconds(1), [01;36m[Kstd::bind(&CallBack, &TheNode)[m[K);
+[10.111s]       |                                                                        [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.111s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[10.112s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[10.112s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[10.112s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.112s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.112s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[10.113s]                  from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:1[m[K:
+[10.113s] [01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+[10.113s]   813 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+[10.113s]       |     [01;36m[K^~~~[m[K
+[10.113s] [01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.113s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:81:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Result[m[K’
+[10.114s]    23 |     TheTimerBase = TheNode->create_wall_timer(std::chrono::seconds(1), [01;36m[Kstd::bind(&CallBack, &TheNode)[m[K);
+[10.114s]       |                                                                        [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.114s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:[m[K At global scope:
+[10.115s] [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:30:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[10.115s]    30 | void CallBack([01;35m[Kauto[m[K TheNode)
+[10.115s]       |               [01;35m[K^~~~[m[K
+[12.754s] gmake[2]: *** [CMakeFiles/TemperatureCPlusPlusNode.dir/build.make:76: CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o] Error 1
+[12.755s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/TemperatureCPlusPlusNode.dir/all] Error 2
+[12.756s] gmake: *** [Makefile:146: all] Error 2
+[12.764s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage:/opt/ros/iron /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperatureCPlusPlusPackage -- -j8 -l8

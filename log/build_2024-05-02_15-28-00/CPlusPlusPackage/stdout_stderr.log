@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodeSubscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodePublisher[0m
+[ 25%] Built target CPlusPlusNode
+[ 50%] Built target CPlusPlusNode_OOP
+[ 62%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodeSubscriber.dir/src/CPlusPlusNodeSubscriber.cpp.o[0m
+[ 87%] Built target CPlusPlusNodePublisher
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeSubscriber.cpp:1[m[K:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeSubscriber.cpp:[m[K In function ‘[01m[Kvoid TheSubscriberCallBack(example_interfaces::msg::String)[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeSubscriber.cpp:23:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+   23 |     RCLCPP_INFO(TheNode->get_logger(), std::[01;31m[Kstring(Message.data)[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/opt/ros/iron/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeSubscriber.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log_internal(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  473 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/CPlusPlusNodeSubscriber.dir/build.make:76: CMakeFiles/CPlusPlusNodeSubscriber.dir/src/CPlusPlusNodeSubscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CPlusPlusNodeSubscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

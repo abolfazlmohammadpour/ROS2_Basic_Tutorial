@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target CPlusPlusNodePublisher[0m
+[ 33%] Built target CPlusPlusNode_OOP
+[ 66%] Built target CPlusPlusNode
+[ 83%] [32mBuilding CXX object CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o[0m
+gmake[2]: *** [CMakeFiles/CPlusPlusNodePublisher.dir/build.make:76: CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CPlusPlusNodePublisher.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

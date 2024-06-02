@@ -1,0 +1,44 @@
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+    9 |     rclcpp::Publisher ThePublisher = TheNode.create_publisher<example_interfaces::msg::String>("PythonTopic", 10[01;31m[K)[m[K;
+      |                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisher(std::shared_ptr<rclcpp::Publisher<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> > >)[m[K’
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:125:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)-> rclcpp::Publisher<MessageT, AllocatorT>[m[K’
+  125 |   [01;36m[KPublisher[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:125:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+    9 |     rclcpp::Publisher ThePublisher = TheNode.create_publisher<example_interfaces::msg::String>("PythonTopic", 10[01;36m[K)[m[K;
+      |                                                                                                                 [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:77:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> Publisher(rclcpp::Publisher<MessageT, AllocatorT>)-> rclcpp::Publisher<MessageT, AllocatorT>[m[K’
+   77 | class [01;36m[KPublisher[m[K : public PublisherBase
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:77:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodePublisher.cpp:9:113:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Krclcpp::Publisher<MessageT, AllocatorT>[m[K’
+    9 |     rclcpp::Publisher ThePublisher = TheNode.create_publisher<example_interfaces::msg::String>("PythonTopic", 10[01;36m[K)[m[K;
+      |                                                                                                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/CPlusPlusNodePublisher.dir/build.make:76: CMakeFiles/CPlusPlusNodePublisher.dir/src/CPlusPlusNodePublisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CPlusPlusNodePublisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

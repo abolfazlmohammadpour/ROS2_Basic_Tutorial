@@ -1,0 +1,41 @@
+[0.288s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile': CMAKE_PREFIX_PATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_interfaces:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_launchfile -DCMAKE_INSTALL_PREFIX=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile
+[0.501s] -- The C compiler identification is GNU 11.4.0
+[1.000s] -- The CXX compiler identification is GNU 11.4.0
+[1.281s] -- Detecting C compiler ABI info
+[1.443s] -- Detecting C compiler ABI info - done
+[1.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.456s] -- Detecting C compile features
+[1.456s] -- Detecting C compile features - done
+[1.461s] -- Detecting CXX compiler ABI info
+[1.668s] -- Detecting CXX compiler ABI info - done
+[1.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.681s] -- Detecting CXX compile features
+[1.682s] -- Detecting CXX compile features - done
+[1.686s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.016s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.355s] -- Configuring done
+[2.362s] -- Generating done
+[2.364s] -- Build files have been written to: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile
+[2.374s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile' returned '0': CMAKE_PREFIX_PATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_interfaces:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_launchfile -DCMAKE_INSTALL_PREFIX=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile
+[2.375s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile': CMAKE_PREFIX_PATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_interfaces:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile -- -j8 -l8
+[2.443s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile' returned '0': CMAKE_PREFIX_PATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_interfaces:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile -- -j8 -l8
+[2.516s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile': CMAKE_PREFIX_PATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_interfaces:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile
+[2.533s] -- Install configuration: ""
+[2.534s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/launch
+[2.535s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/launch/CPlusPlusTopic.launch.py
+[2.536s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/ament_index/resource_index/package_run_dependencies/custom_launchfile
+[2.537s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/ament_index/resource_index/parent_prefix_path/custom_launchfile
+[2.538s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/environment/ament_prefix_path.sh
+[2.539s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/environment/ament_prefix_path.dsv
+[2.540s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/environment/path.sh
+[2.540s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/environment/path.dsv
+[2.541s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/local_setup.bash
+[2.541s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/local_setup.sh
+[2.542s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/local_setup.zsh
+[2.542s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/local_setup.dsv
+[2.542s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/package.dsv
+[2.543s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/ament_index/resource_index/packages/custom_launchfile
+[2.544s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/cmake/custom_launchfileConfig.cmake
+[2.544s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/cmake/custom_launchfileConfig-version.cmake
+[2.544s] -- Installing: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_launchfile/share/custom_launchfile/package.xml
+[2.552s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile' returned '0': CMAKE_PREFIX_PATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/custom_interfaces:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/custom_launchfile

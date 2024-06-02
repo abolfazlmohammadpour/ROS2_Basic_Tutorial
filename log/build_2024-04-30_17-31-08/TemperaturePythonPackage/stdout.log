@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/PKG-INFO
+writing dependency_links to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/dependency_links.txt
+writing entry points to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/entry_points.txt
+writing requirements to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/requires.txt
+writing top-level names to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/top_level.txt
+reading manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'
+writing manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+running install_egg_info
+removing '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing PythonPublisher script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/TemperaturePythonPackage
+writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log'

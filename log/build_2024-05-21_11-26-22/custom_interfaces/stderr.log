@@ -1,0 +1,11 @@
+[31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:243 (add_custom_target):
+  add_custom_target cannot create target "custom_interfaces" because another
+  target with the same name already exists.  The existing target is a custom
+  target created in source directory
+  "/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/custom_interfaces".
+  See documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:815: cmake_check_build_system] Error 1

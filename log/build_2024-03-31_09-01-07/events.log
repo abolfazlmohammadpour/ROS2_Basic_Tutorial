@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (-) JobUnselected: {'identifier': 'TemperatureCPlusPlusPackage'}
+[0.000976] (TemperaturePythonPackage) JobQueued: {'identifier': 'TemperaturePythonPackage', 'dependencies': OrderedDict()}
+[0.001137] (TemperaturePythonPackage) JobStarted: {'identifier': 'TemperaturePythonPackage'}
+[0.099016] (-) TimerEvent: {}
+[0.200214] (-) TimerEvent: {}
+[0.301049] (-) TimerEvent: {}
+[0.401792] (-) TimerEvent: {}
+[0.502570] (-) TimerEvent: {}
+[0.603318] (-) TimerEvent: {}
+[0.704050] (-) TimerEvent: {}
+[0.804810] (-) TimerEvent: {}
+[0.905620] (-) TimerEvent: {}
+[1.008035] (-) TimerEvent: {}
+[1.109946] (-) TimerEvent: {}
+[1.210829] (-) TimerEvent: {}
+[1.311564] (-) TimerEvent: {}
+[1.412341] (-) TimerEvent: {}
+[1.513040] (-) TimerEvent: {}
+[1.613822] (-) TimerEvent: {}
+[1.714578] (-) TimerEvent: {}
+[1.815296] (-) TimerEvent: {}
+[1.916082] (-) TimerEvent: {}
+[2.016964] (-) TimerEvent: {}
+[2.117833] (-) TimerEvent: {}
+[2.218715] (-) TimerEvent: {}
+[2.283652] (TemperaturePythonPackage) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/TemperaturePythonPackage', 'build', '--build-base', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build', 'install', '--record', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log', '--single-version-externally-managed'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abolfazlmohammadpour', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/abolfazlmohammadpour', 'OLDPWD': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'abolfazlmohammadpour', 'NAME': 'ABOLFAZLMOHAMMADPOUR', 'WSL_INTEROP': '/run/WSL/114581_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/mnt/c/PyCharm(A Powerful Integrated Development Environment For Programming Python Program)/Community Edition/PyCharm Community Edition 2023.3/bin:/mnt/c/PyCharm(An Integrated Development Environment For Programming Python)/PyCharm 2023.3.2/bin:/mnt/c/CLion(An Integrated Development Environment For Programming C And CPlusPlus)/CLion 2023.3.1/bin:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Programs/oh-my-posh/bin:/snap/bin', 'WT_SESSION': '216a9b9c-f491-4447-a507-fc5ff9363033', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.318960] (-) TimerEvent: {}
+[2.419622] (-) TimerEvent: {}
+[2.520236] (-) TimerEvent: {}
+[2.620922] (-) TimerEvent: {}
+[2.721633] (-) TimerEvent: {}
+[2.822258] (-) TimerEvent: {}
+[2.922998] (-) TimerEvent: {}
+[2.944433] (TemperaturePythonPackage) StdoutLine: {'line': b'running egg_info\n'}
+[2.946553] (TemperaturePythonPackage) StdoutLine: {'line': b'creating ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info\n'}
+[2.947557] (TemperaturePythonPackage) StdoutLine: {'line': b'writing ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/PKG-INFO\n'}
+[2.948430] (TemperaturePythonPackage) StdoutLine: {'line': b'writing dependency_links to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/dependency_links.txt\n'}
+[2.949616] (TemperaturePythonPackage) StdoutLine: {'line': b'writing entry points to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/entry_points.txt\n'}
+[2.950023] (TemperaturePythonPackage) StdoutLine: {'line': b'writing requirements to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/requires.txt\n'}
+[2.951218] (TemperaturePythonPackage) StdoutLine: {'line': b'writing top-level names to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/top_level.txt\n'}
+[2.951623] (TemperaturePythonPackage) StdoutLine: {'line': b"writing manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'\n"}
+[2.957369] (TemperaturePythonPackage) StdoutLine: {'line': b"reading manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'\n"}
+[2.960429] (TemperaturePythonPackage) StdoutLine: {'line': b"writing manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'\n"}
+[2.961666] (TemperaturePythonPackage) StdoutLine: {'line': b'running build\n'}
+[2.962755] (TemperaturePythonPackage) StdoutLine: {'line': b'running build_py\n'}
+[2.963088] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build\n'}
+[2.963637] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build/lib\n'}
+[2.964666] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build/lib/TemperaturePythonPackage\n'}
+[2.965101] (TemperaturePythonPackage) StdoutLine: {'line': b'copying TemperaturePythonPackage/__init__.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build/lib/TemperaturePythonPackage\n'}
+[2.965515] (TemperaturePythonPackage) StdoutLine: {'line': b'running install\n'}
+[2.966465] (TemperaturePythonPackage) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.966907] (TemperaturePythonPackage) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.967786] (TemperaturePythonPackage) StdoutLine: {'line': b'running install_lib\n'}
+[2.970355] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage\n'}
+[2.971103] (TemperaturePythonPackage) StdoutLine: {'line': b'copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build/lib/TemperaturePythonPackage/__init__.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage\n'}
+[2.972922] (TemperaturePythonPackage) StdoutLine: {'line': b'byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage/__init__.py to __init__.cpython-310.pyc\n'}
+[2.974177] (TemperaturePythonPackage) StdoutLine: {'line': b'running install_data\n'}
+[2.975864] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/ament_index\n'}
+[2.976741] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/ament_index/resource_index\n'}
+[2.977147] (TemperaturePythonPackage) StdoutLine: {'line': b'creating /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/ament_index/resource_index/packages\n'}
+[2.977971] (TemperaturePythonPackage) StdoutLine: {'line': b'copying resource/TemperaturePythonPackage -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/ament_index/resource_index/packages\n'}
+[2.978981] (TemperaturePythonPackage) StdoutLine: {'line': b'copying package.xml -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/share/TemperaturePythonPackage\n'}
+[2.979973] (TemperaturePythonPackage) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.985400] (TemperaturePythonPackage) StdoutLine: {'line': b'Copying ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage-0.0.0-py3.10.egg-info\n'}
+[2.988866] (TemperaturePythonPackage) StdoutLine: {'line': b'running install_scripts\n'}
+[3.023355] (-) TimerEvent: {}
+[3.062983] (TemperaturePythonPackage) StdoutLine: {'line': b"writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log'\n"}
+[3.116210] (TemperaturePythonPackage) CommandEnded: {'returncode': 0}
+[3.123671] (-) TimerEvent: {}
+[3.233575] (-) TimerEvent: {}
+[3.336145] (-) TimerEvent: {}
+[3.342017] (TemperaturePythonPackage) JobEnded: {'identifier': 'TemperaturePythonPackage', 'rc': 0}
+[3.347684] (-) EventReactorShutdown: {}

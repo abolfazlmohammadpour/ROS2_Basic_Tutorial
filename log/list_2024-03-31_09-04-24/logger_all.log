@@ -1,0 +1,66 @@
+[4.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace']
+[4.271s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcaa6f242b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fcaa6eb35b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fcaa6eb35b0>>)
+[4.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.512s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extensions ['ignore', 'ignore_ament_install']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'ignore'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'ignore_ament_install'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extensions ['colcon_pkg']
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'colcon_pkg'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extensions ['colcon_meta']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'colcon_meta'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extensions ['ros']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'ros'
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extensions ['cmake', 'python']
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'cmake'
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'python'
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extensions ['python_setup_py']
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace) by extension 'python_setup_py'
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build) by extensions ['ignore', 'ignore_ament_install']
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build) by extension 'ignore'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build) ignored
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install) by extensions ['ignore', 'ignore_ament_install']
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install) by extension 'ignore'
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install) ignored
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/log) by extensions ['ignore', 'ignore_ament_install']
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/log) by extension 'ignore'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/log) ignored
+[4.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extensions ['ignore', 'ignore_ament_install']
+[4.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'ignore'
+[4.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'ignore_ament_install'
+[4.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extensions ['colcon_pkg']
+[4.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'colcon_pkg'
+[4.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extensions ['colcon_meta']
+[4.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'colcon_meta'
+[4.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extensions ['ros']
+[4.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'ros'
+[4.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extensions ['cmake', 'python']
+[4.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'cmake'
+[4.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'python'
+[4.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extensions ['python_setup_py']
+[4.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src) by extension 'python_setup_py'
+[4.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extensions ['ignore', 'ignore_ament_install']
+[4.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extension 'ignore'
+[4.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extension 'ignore_ament_install'
+[4.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extensions ['colcon_pkg']
+[4.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extension 'colcon_pkg'
+[4.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extensions ['colcon_meta']
+[4.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extension 'colcon_meta'
+[4.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extensions ['ros']
+[4.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage) by extension 'ros'
+[4.597s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage' with type 'ros.ament_cmake' and name 'TemperatureCPlusPlusPackage'
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extensions ['ignore', 'ignore_ament_install']
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extension 'ignore'
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extension 'ignore_ament_install'
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extensions ['colcon_pkg']
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extension 'colcon_pkg'
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extensions ['colcon_meta']
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extension 'colcon_meta'
+[4.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extensions ['ros']
+[4.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage) by extension 'ros'
+[4.600s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage' with type 'ros.ament_python' and name 'TemperaturePythonPackage'
+[4.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

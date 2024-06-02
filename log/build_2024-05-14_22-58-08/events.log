@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000554] (-) JobUnselected: {'identifier': 'PythonPackage'}
+[0.000777] (CPlusPlusPackage) JobQueued: {'identifier': 'CPlusPlusPackage', 'dependencies': OrderedDict()}
+[0.000853] (CPlusPlusPackage) JobStarted: {'identifier': 'CPlusPlusPackage'}
+[0.080659] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'cmake'}
+[0.082065] (CPlusPlusPackage) JobProgress: {'identifier': 'CPlusPlusPackage', 'progress': 'build'}
+[0.082194] (CPlusPlusPackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', '--', '-j8', '-l8'], 'cwd': '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abolfazlmohammadpour'), ('GIT_ASKPASS', '/home/abolfazlmohammadpour/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/abolfazlmohammadpour'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fc2d818b-c935-496c-adf0-f468a4f6b395.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abolfazlmohammadpour/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abolfazlmohammadpour/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install:/home/abolfazlmohammadpour/ROS2WorkSpace/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'abolfazlmohammadpour'), ('NAME', 'ABOLFAZLMOHAMMADPOUR'), ('WSL_INTEROP', '/run/WSL/52236_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/abolfazlmohammadpour/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Siemens/Step7/S7bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/MinGW(MinimalistGnuForWindows)/V13.2.0/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PKWARE/pkzipc:/mnt/c/Users/ABOLFAZLMOHAMMADPOUR/AppData/Local/Microsoft/WindowsApps:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code/bin:/mnt/c/VisualStudioCode(A Powerful Editor For Programmers)/Microsoft VS Code Insiders/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eee58108ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/CPlusPlusPackage:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/PythonPackage:/home/abolfazlmohammadpour/ROS2WorkSpace/install/PythonPackage:/opt/ros/iron'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.098860] (-) TimerEvent: {}
+[0.104477] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.199021] (-) TimerEvent: {}
+[0.239252] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.299156] (-) TimerEvent: {}
+[0.381182] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.389000] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.399296] (-) TimerEvent: {}
+[0.400566] (CPlusPlusPackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.419244] (CPlusPlusPackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499487] (-) TimerEvent: {}
+[0.573539] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.574937] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599643] (-) TimerEvent: {}
+[0.700028] (-) TimerEvent: {}
+[0.800379] (-) TimerEvent: {}
+[0.900779] (-) TimerEvent: {}
+[1.001157] (-) TimerEvent: {}
+[1.101541] (-) TimerEvent: {}
+[1.201993] (-) TimerEvent: {}
+[1.302455] (-) TimerEvent: {}
+[1.402843] (-) TimerEvent: {}
+[1.503218] (-) TimerEvent: {}
+[1.603653] (-) TimerEvent: {}
+[1.704097] (-) TimerEvent: {}
+[1.804668] (-) TimerEvent: {}
+[1.905242] (-) TimerEvent: {}
+[2.005785] (-) TimerEvent: {}
+[2.106383] (-) TimerEvent: {}
+[2.206969] (-) TimerEvent: {}
+[2.307505] (-) TimerEvent: {}
+[2.408099] (-) TimerEvent: {}
+[2.508756] (-) TimerEvent: {}
+[2.609405] (-) TimerEvent: {}
+[2.709978] (-) TimerEvent: {}
+[2.810533] (-) TimerEvent: {}
+[2.911122] (-) TimerEvent: {}
+[3.011703] (-) TimerEvent: {}
+[3.112301] (-) TimerEvent: {}
+[3.212969] (-) TimerEvent: {}
+[3.313556] (-) TimerEvent: {}
+[3.414132] (-) TimerEvent: {}
+[3.514671] (-) TimerEvent: {}
+[3.615273] (-) TimerEvent: {}
+[3.715908] (-) TimerEvent: {}
+[3.816407] (-) TimerEvent: {}
+[3.916990] (-) TimerEvent: {}
+[4.017347] (-) TimerEvent: {}
+[4.117762] (-) TimerEvent: {}
+[4.218153] (-) TimerEvent: {}
+[4.318585] (-) TimerEvent: {}
+[4.418984] (-) TimerEvent: {}
+[4.519366] (-) TimerEvent: {}
+[4.619817] (-) TimerEvent: {}
+[4.720180] (-) TimerEvent: {}
+[4.820566] (-) TimerEvent: {}
+[4.921053] (-) TimerEvent: {}
+[5.021438] (-) TimerEvent: {}
+[5.121817] (-) TimerEvent: {}
+[5.222228] (-) TimerEvent: {}
+[5.295183] (CPlusPlusPackage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.322392] (-) TimerEvent: {}
+[5.422795] (-) TimerEvent: {}
+[5.469141] (CPlusPlusPackage) StdoutLine: {'line': b'-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)\n'}
+[5.523023] (-) TimerEvent: {}
+[5.623449] (-) TimerEvent: {}
+[5.712967] (CPlusPlusPackage) StderrLine: {'line': b'WARNING: Package name "CPlusPlusPackage" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[5.722577] (CPlusPlusPackage) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.723597] (-) TimerEvent: {}
+[5.756551] (CPlusPlusPackage) StdoutLine: {'line': b'-- Generating done\n'}
+[5.758942] (CPlusPlusPackage) StdoutLine: {'line': b'-- Build files have been written to: /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/CPlusPlusPackage\n'}
+[5.783795] (CPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CPlusPlusNodeSubscriber\x1b[0m\n'}
+[5.785217] (CPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CPlusPlusNode\x1b[0m\n'}
+[5.785743] (CPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CPlusPlusNodePublisher\x1b[0m\n'}
+[5.786007] (CPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CPlusPlusNode_OOP\x1b[0m\n'}
+[5.786869] (CPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CPlusPlusNodeClient\x1b[0m\n'}
+[5.789560] (CPlusPlusPackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CPlusPlusNodeServer\x1b[0m\n'}
+[5.800748] (CPlusPlusPackage) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o\x1b[0m\n'}
+[5.812907] (CPlusPlusPackage) StdoutLine: {'line': b'[ 21%] Built target CPlusPlusNodeSubscriber\n'}
+[5.814968] (CPlusPlusPackage) StdoutLine: {'line': b'[ 35%] Built target CPlusPlusNode\n'}
+[5.815222] (CPlusPlusPackage) StdoutLine: {'line': b'[ 64%] Built target CPlusPlusNodePublisher\n'}
+[5.815368] (CPlusPlusPackage) StdoutLine: {'line': b'[ 64%] Built target CPlusPlusNodeClient\n'}
+[5.816604] (CPlusPlusPackage) StdoutLine: {'line': b'[ 78%] Built target CPlusPlusNodeServer\n'}
+[5.817154] (CPlusPlusPackage) StdoutLine: {'line': b'[ 92%] Built target CPlusPlusNode_OOP\n'}
+[5.823721] (-) TimerEvent: {}
+[5.924000] (-) TimerEvent: {}
+[6.024426] (-) TimerEvent: {}
+[6.124885] (-) TimerEvent: {}
+[6.225293] (-) TimerEvent: {}
+[6.325688] (-) TimerEvent: {}
+[6.426015] (-) TimerEvent: {}
+[6.526427] (-) TimerEvent: {}
+[6.626795] (-) TimerEvent: {}
+[6.727198] (-) TimerEvent: {}
+[6.827594] (-) TimerEvent: {}
+[6.928021] (-) TimerEvent: {}
+[7.028428] (-) TimerEvent: {}
+[7.128916] (-) TimerEvent: {}
+[7.229352] (-) TimerEvent: {}
+[7.329819] (-) TimerEvent: {}
+[7.430416] (-) TimerEvent: {}
+[7.531003] (-) TimerEvent: {}
+[7.631591] (-) TimerEvent: {}
+[7.732238] (-) TimerEvent: {}
+[7.832852] (-) TimerEvent: {}
+[7.933588] (-) TimerEvent: {}
+[8.034181] (-) TimerEvent: {}
+[8.134808] (-) TimerEvent: {}
+[8.235378] (-) TimerEvent: {}
+[8.336059] (-) TimerEvent: {}
+[8.436687] (-) TimerEvent: {}
+[8.537298] (-) TimerEvent: {}
+[8.637887] (-) TimerEvent: {}
+[8.738520] (-) TimerEvent: {}
+[8.839129] (-) TimerEvent: {}
+[8.939778] (-) TimerEvent: {}
+[9.040530] (-) TimerEvent: {}
+[9.141105] (-) TimerEvent: {}
+[9.241689] (-) TimerEvent: {}
+[9.342262] (-) TimerEvent: {}
+[9.442927] (-) TimerEvent: {}
+[9.476572] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTheNodeClass::TheNodeClass()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.476911] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:9:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TheNodeClass::TheClientCycle()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.477059] (CPlusPlusPackage) StderrLine: {'line': b'    9 |         std::thread TheThread = std::thread(\x1b[01;31m\x1b[KTheClientCycle\x1b[m\x1b[K);\n'}
+[9.477189] (CPlusPlusPackage) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.477314] (CPlusPlusPackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/CPlusPlusPackage/src/CPlusPlusNodeClient_OOP.cpp:12:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.477438] (CPlusPlusPackage) StderrLine: {'line': b'   12 |     void \x1b[01;36m\x1b[KTheClientCycle\x1b[m\x1b[K(void)\n'}
+[9.477613] (CPlusPlusPackage) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.543179] (-) TimerEvent: {}
+[9.643763] (-) TimerEvent: {}
+[9.744364] (-) TimerEvent: {}
+[9.844972] (-) TimerEvent: {}
+[9.945565] (-) TimerEvent: {}
+[10.046179] (-) TimerEvent: {}
+[10.146746] (-) TimerEvent: {}
+[10.247392] (-) TimerEvent: {}
+[10.347972] (-) TimerEvent: {}
+[10.448562] (-) TimerEvent: {}
+[10.549238] (-) TimerEvent: {}
+[10.649790] (-) TimerEvent: {}
+[10.750374] (-) TimerEvent: {}
+[10.850822] (-) TimerEvent: {}
+[10.951236] (-) TimerEvent: {}
+[11.051685] (-) TimerEvent: {}
+[11.152091] (-) TimerEvent: {}
+[11.198754] (CPlusPlusPackage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/CPlusPlusNodeClient_OOP.dir/build.make:76: CMakeFiles/CPlusPlusNodeClient_OOP.dir/src/CPlusPlusNodeClient_OOP.cpp.o] Error 1\n'}
+[11.199319] (CPlusPlusPackage) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/CPlusPlusNodeClient_OOP.dir/all] Error 2\n'}
+[11.199457] (CPlusPlusPackage) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.201466] (CPlusPlusPackage) CommandEnded: {'returncode': 2}
+[11.252455] (-) TimerEvent: {}
+[11.311928] (CPlusPlusPackage) JobEnded: {'identifier': 'CPlusPlusPackage', 'rc': 2}
+[11.323040] (-) EventReactorShutdown: {}

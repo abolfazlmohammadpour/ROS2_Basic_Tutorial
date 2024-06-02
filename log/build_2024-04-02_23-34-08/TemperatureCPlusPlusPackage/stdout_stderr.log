@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target TemperatureCPlusPlusNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o[0m
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:3:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+    3 | void CallBack([01;35m[Kauto[m[K);
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_timer(std::chrono::seconds, <unresolved overloaded function type>)[m[K’
+   23 |     TheTimerBase = [01;31m[KTheNode->create_timer(std::chrono::seconds(1), &CallBack)[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::GenericTimer<CallbackT>::SharedPtr rclcpp::Node::create_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:23:41:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KCallbackT[m[K’
+   23 |     TheTimerBase = [01;36m[KTheNode->create_timer(std::chrono::seconds(1), &CallBack)[m[K;
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:[m[K At global scope:
+[01m[K/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperatureCPlusPlusPackage/src/TemperatureCPlusPlusNode.cpp:30:15:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   30 | void CallBack([01;35m[Kauto[m[K TheNode)
+      |               [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/TemperatureCPlusPlusNode.dir/build.make:76: CMakeFiles/TemperatureCPlusPlusNode.dir/src/TemperatureCPlusPlusNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/TemperatureCPlusPlusNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,27 @@
+[2.146s] Invoking command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 setup.py egg_info --egg-base ../../build/TemperaturePythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log --single-version-externally-managed
+[2.827s] running egg_info
+[2.829s] writing ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/PKG-INFO
+[2.830s] writing dependency_links to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/dependency_links.txt
+[2.831s] writing entry points to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/entry_points.txt
+[2.832s] writing requirements to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/requires.txt
+[2.833s] writing top-level names to ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/top_level.txt
+[2.838s] reading manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'
+[2.841s] writing manifest file '../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info/SOURCES.txt'
+[2.841s] running build
+[2.841s] running build_py
+[2.842s] copying TemperaturePythonPackage/TemperaturePythonNode_OOP.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build/lib/TemperaturePythonPackage
+[2.843s] running install
+[2.844s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.845s]   warnings.warn(
+[2.845s] running install_lib
+[2.847s] copying /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build/lib/TemperaturePythonPackage/TemperaturePythonNode_OOP.py -> /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage
+[2.849s] byte-compiling /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage/TemperaturePythonNode_OOP.py to TemperaturePythonNode_OOP.cpython-310.pyc
+[2.849s] running install_data
+[2.851s] running install_egg_info
+[2.856s] removing '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage-0.0.0-py3.10.egg-info' (and everything under it)
+[2.857s] Copying ../../build/TemperaturePythonPackage/TemperaturePythonPackage.egg-info to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages/TemperaturePythonPackage-0.0.0-py3.10.egg-info
+[2.860s] running install_scripts
+[2.919s] Installing TemperaturePythonNode script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/TemperaturePythonPackage
+[2.920s] Installing TemperaturePythonNode_OOP script to /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/TemperaturePythonPackage
+[2.921s] writing list of installed files to '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log'
+[2.984s] Invoked command in '/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/src/TemperaturePythonPackage' returned '0': PYTHONPATH=/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/prefix_override:/home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/install/TemperaturePythonPackage/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 setup.py egg_info --egg-base ../../build/TemperaturePythonPackage build --build-base /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/build install --record /home/abolfazlmohammadpour/Temperature/ROS2WorkSpace/build/TemperaturePythonPackage/install.log --single-version-externally-managed
