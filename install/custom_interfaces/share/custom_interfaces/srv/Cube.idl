@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/Cube.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    struct Cube_Request {
+      int64 number;
+    };
+    struct Cube_Response {
+      int64 result;
+    };
+  };
+};

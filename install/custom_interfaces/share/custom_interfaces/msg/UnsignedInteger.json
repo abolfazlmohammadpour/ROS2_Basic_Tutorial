@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_interfaces/msg/UnsignedInteger",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_interfaces/msg/UnsignedInteger",
+      "hash_string": "RIHS01_9a0f8522082c07c2482b8604fe66d9ed55dfdfd15ca3d1a95bcd3c6bfaa99eef"
+    }
+  ]
+}
