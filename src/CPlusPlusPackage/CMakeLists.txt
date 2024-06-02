@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.8)
+project(CPlusPlusPackage)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
+
+add_executable(CPlusPlusNode src/CPlusPlusNode.cpp)
+add_executable(CPlusPlusNode_OOP src/CPlusPlusNode_OOP.cpp)
+add_executable(CPlusPlusNodePublisher src/CPlusPlusNodePublisher.cpp)
+add_executable(CPlusPlusNodeSubscriber src/CPlusPlusNodeSubscriber.cpp)
+add_executable(CPlusPlusNodeServer src/CPlusPlusNodeServer.cpp)
+add_executable(CPlusPlusNodeClient src/CPlusPlusNodeClient.cpp)
+add_executable(CPlusPlusNodeClient_OOP src/CPlusPlusNodeClient_OOP.cpp)
+add_executable(CPlusPlusNodeParameter src/CPlusPlusNodeParameter.cpp)
+
+ament_target_dependencies(CPlusPlusNode rclcpp)
+ament_target_dependencies(CPlusPlusNode_OOP rclcpp)
+ament_target_dependencies(CPlusPlusNodePublisher rclcpp example_interfaces)
+ament_target_dependencies(CPlusPlusNodeSubscriber rclcpp example_interfaces)
+ament_target_dependencies(CPlusPlusNodeServer rclcpp example_interfaces)
+ament_target_dependencies(CPlusPlusNodeClient rclcpp example_interfaces)
+ament_target_dependencies(CPlusPlusNodeClient_OOP rclcpp example_interfaces)
+ament_target_dependencies(CPlusPlusNodeParameter rclcpp)
+
+install(TARGETS CPlusPlusNode DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNode_OOP DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNodePublisher DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNodeSubscriber DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNodeServer DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNodeClient DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNodeClient_OOP DESTINATION lib/${PROJECT_NAME})
+install(TARGETS CPlusPlusNodeParameter DESTINATION lib/${PROJECT_NAME})
+
+ament_package()
